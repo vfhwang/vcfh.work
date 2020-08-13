@@ -1,0 +1,307 @@
+/*------------------------------------*\
+    RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/
+    v2.0b1 | 201101
+    NOTE:WORK IN PROGRESS WORK IN PROGRESS
+    USE WITH CAUTION AND TEST WITH ABANDON */
+
+    @font-face {
+      font-family:'Suisse';
+      src: url('/assets/fonts/SuisseIntl-Regular.woff2') format('woff2'),
+          url('/assets/fonts/SuisseIntl-Regular.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+  }
+
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  font-weight:400;
+  font:inherit;
+  vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+  display:block;
+}
+body{
+  line-height:1;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-text-stroke:1px transparent;
+}
+ol,ul{
+  list-style:none;
+}
+blockquote,q{
+  quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+  content:’’;
+  content:none;
+}
+/* remember to define visible focus styles!
+:focus{
+  outline:?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins{
+  text-decoration:none;
+}
+del{
+  text-decoration:line-through;
+}
+
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* box-sizing reset */
+
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+button {
+   background:none!important;
+   color:inherit;
+   border:none;
+   font: inherit;
+   color:#2F3140;
+   cursor: pointer;
+   text-decoration: none;
+   border-radius:40px;
+   border:2px solid rgba(47,49,64,255);
+   text-align: center;
+   padding:6px 20px;
+  margin:20px 0 0 82px;
+}
+
+button:hover{
+color:#4700B2;
+border:2px solid #4700B2;
+
+}
+
+/*------------------------------------*\
+  $MAIN
+\*------------------------------------*/
+
+body{
+font-family:'Suisse', serif;
+font-weight: 400;
+line-height:1.3;
+font-size:18px;
+color: #E0E0E0;
+background-color: #242832;
+/* max-width: 650px; */
+}
+
+.two-column-list > li{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
+
+
+
+.longform p, .longform li, .longform h3{
+  margin-bottom: 1em;
+}
+
+
+
+pre{
+text-align: center;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+  text-decoration: none;
+}
+
+a{
+color:#F9FFB7;
+}
+
+a:hover{
+color:#EDBCFF;
+}
+
+
+
+
+
+.main{
+margin:16px;
+max-width:690px;
+}
+
+
+.list{
+  list-style: disc;
+  margin-left:1em;
+  margin-bottom:.5em;
+}
+
+.list li{
+  margin-bottom:.5em;
+}
+
+.otherweeks{
+  margin:2em 0 0;
+}
+
+.bitmap{
+  padding: 48px 0;
+  width: 100%;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+
+}
+
+.karaoke{
+  padding: 0 0 48px;
+  width: 100%;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+
+}
+
+
+.sectiontitle{
+  color:#D3A4FF; !important
+  text-align: left;
+  padding: 0 0 16px;
+}
+
+
+
+.title{
+  margin:16px 0 2em;
+}
+
+section{
+
+}
+
+header{
+display:flex;
+justify-content: space-between;
+}
+
+.bit{
+  margin-bottom:16px;
+}
+
+
+.homelink a{
+  color:#D3A4FF;
+display:inline;
+position: relative;
+text-decoration: none;
+}
+
+
+img{
+align-self:baseline;
+position:relative;
+max-width: 100%;
+}
+
+
+ol{
+list-style:decimal inside none;
+border-top:;
+border-bottom:;
+}
+
+ol > li {
+  line-height:1.5;
+  padding-bottom:12px;
+}
+
+/* .post, .postimage, .projects, .journalpost{
+margin:24px 0 30px;
+}
+
+ */
+
+
+
+
+.weeknoteslist > li {
+  list-style-type: none;
+  padding:0;
+  margin:0;
+  line-height:inherit;
+}
+
+.colophon{
+  font-size:12px;
+  margin:0 0 3em 0;
+}
+
+.tinytext{
+  line-height:1.3;
+}
+
+.worknote{
+  display:flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.details > ul{
+  list-style: disc;
+  padding-left:2em;
+}
+
+li, h3{
+  margin:0 0 .5em;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+  .main{
+    margin:48px;
+    }
+
+    .two-column-list > li{
+      display:grid;
+      grid-template-columns:1fr 2fr;
+    }
+    
+ 
+}
+
