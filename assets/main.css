@@ -203,6 +203,55 @@ max-width:1200px;
   padding: 0 0 60px;
 }
 
+.project{
+  margin: 0 0 60px 0;
+}
+
+
+.project > h2, .project > p{
+  display:inline;
+  padding: 0 20px 0 0;
+}
+
+.project > div {
+  width:100%;
+  /* height:50vh; */
+  padding:60px 0;
+  margin:0 0 20px 0;
+}
+
+.parliament{
+  background-color: #373151;
+
+}
+
+.iplayer{
+  background-color: #F54997;
+
+  
+}
+
+.farewill{
+  background-color: #FFDF4E;
+}
+
+.screen img{
+  /* width:66%; */
+  padding: 16px 5px 0px;
+  margin:0;
+}
+
+.screen{
+  width:90%;
+  margin:auto;
+  border-radius:4px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.05);
+  background-color: rgba(255,255,255,0.3);
+}
+
+
+
+
 
 
 .title{
@@ -293,27 +342,8 @@ li, h3{
   margin:0 0 .5em;
 }
 
-.farewill{
-  background-color: #FFDF4E;
-  width:100%;
-  /* height:50vh; */
-  padding:60px 0;
-  margin:0 0 20px 0;
-}
 
-.screen img{
-  /* width:66%; */
-  padding: 16px 5px 0px;
-  margin:0;
-}
 
-.screen{
-  width:90%;
-  margin:auto;
-  background-color:#FFEC95;
-  border-radius:4px;
-  box-shadow: 0px 4px 20px rgba(0,0,0,0.05);
-}
 
 .intro{
   font-size:1.6rem;
