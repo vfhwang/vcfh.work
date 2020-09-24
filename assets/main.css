@@ -132,6 +132,8 @@ background-color: #ffffff;
 
 .longform p, .longform li, .longform h3{
   margin-bottom: 1em;
+  font-size: 2rem;
+  max-width: 80%;
 }
 
 
@@ -208,17 +210,28 @@ max-width:1200px;
 }
 
 
-.project > h2, .project > p{
+h1, h2{
   display:inline;
   padding: 0 20px 0 0;
 }
 
-.project > div {
+.inline-p{
+  display:inline;
+}
+
+.image-contain {
   width:100%;
   /* height:50vh; */
   padding:60px 0;
   margin:0 0 20px 0;
+  background-color:#F7F7F7;
 }
+
+.post > .image-contain{
+  margin: 80px 0;
+}
+
+
 
 .parliament{
   background-color: #373151;

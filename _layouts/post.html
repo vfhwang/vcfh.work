@@ -45,8 +45,10 @@
 
 	<main data-barba="container" data-barba-namespace="home">
 
-	<section class="post longform">
-			<ul><li class="bigbullet" style="color:#{{ page.colour }}"><h1 class="title">{{page.title}}</h1></li></ul><p>{{page.description}}</p>
+
+			<h1 class="title">{{page.title}}</h1><p class="inline-p">{{page.description}}</p>
+
+			<section class="post longform">
 	{{ content }}
 
 	<p><a href="/">Back</a></p>
