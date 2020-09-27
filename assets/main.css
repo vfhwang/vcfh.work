@@ -131,12 +131,16 @@ background-color: #ffffff;
 
 
 .longform p, .longform li, .longform h3{
-  margin-bottom: 1em;
-  font-size: 2rem;
-  max-width: 80%;
+  margin-bottom: .5em;
+  font-size: 1.2rem;
 }
 
-
+.longform .caption{
+  margin:10px;
+  font-size:0.8rem;
+  text-align:center;
+  max-width:100%;
+}
 
 pre{
 text-align: center;
@@ -178,32 +182,12 @@ max-width:1200px;
   margin-bottom:.5em;
 }
 
-.otherweeks{
-  margin:2em 0 0;
-}
-
-.bitmap{
-  padding: 48px 0;
-  width: 100%;
-  image-rendering: pixelated;
-  -ms-interpolation-mode: nearest-neighbor;
-
-}
-
-.karaoke{
-  padding: 0 0 48px;
-  width: 100%;
-  image-rendering: pixelated;
-  -ms-interpolation-mode: nearest-neighbor;
-
-}
-
 
 .sectiontitle{
-  color:#4B3666; !important
-  text-align: left;
+  /* color:#4B3666 !important; */
   padding: 0 0 60px;
 }
+
 
 .project{
   margin: 0 0 60px 0;
@@ -225,12 +209,22 @@ h1, h2{
   padding:60px 0;
   margin:0 0 20px 0;
   background-color:#F7F7F7;
+  text-align:center;
 }
 
 .post > .image-contain{
-  margin: 80px 0;
+  margin: 40px 0;
 }
 
+.caption{
+  font-size:20px;
+
+}
+
+.width200{
+  width:20%;
+  display:inline-block;
+}
 
 
 .parliament{
@@ -240,28 +234,34 @@ h1, h2{
 
 .iplayer{
   background-color: #F54997;
-
-  
+  color:white;  
 }
 
 .farewill{
   background-color: #FFDF4E;
 }
 
-.screen img{
+.screen img, .no-screen img, .screen video, .no-screen video{
   /* width:66%; */
   padding: 16px 5px 0px;
   margin:0;
 }
 
-.screen{
+.screen, .no-screen{
   width:90%;
   margin:auto;
+
+}
+
+.screen{
   border-radius:4px;
   box-shadow: 0px 4px 20px rgba(0,0,0,0.05);
   background-color: rgba(255,255,255,0.3);
-
 }
+
+
+
+
 
 
 
@@ -270,20 +270,17 @@ h1, h2{
 
 .title{
   margin:16px 0 2em;
+  font-size:inherit;
 }
 
-section{
-
-}
-
+/* 
 header{
-display:flex;
-justify-content: space-between;
-}
+font-size:18px;
+} */
 
-.bit{
+/* .bit{
   margin-bottom:16px;
-}
+} */
 
 
 .homelink a{
@@ -371,7 +368,7 @@ li, h3{
     margin:48px;
     }
 
-    .screen img{
+    .screen img, .no-screen img, .screen video, .no-screen video{
       padding: 24px 8px 2px;
     }
 
@@ -390,7 +387,7 @@ li, h3{
       grid-template-columns:1fr 2fr;
     }
     
-    .screen{
+    .screen, .no-screen{
       width:66%;
     }
 
@@ -399,6 +396,23 @@ li, h3{
       /* height:50vh; */
       padding:120px 0;
       margin:0 0 20px 0;
+    }
+
+    .longform p, .longform li, .longform h3{
+      margin-bottom: 1em;
+      font-size: 1.8rem;
+      max-width: 90%;
+    }
+
+    .longform .caption{
+      margin:20px;
+      font-size:1.1rem;
+      text-align:center;
+      max-width:100%;
+    }
+
+    .post > .image-contain{
+      margin: 60px 0;
     }
 }
 
@@ -409,7 +423,27 @@ li, h3{
     margin:48px auto;
     }
 
+
+    .longform p, .longform li, .longform h3{
+      margin-bottom: 1em;
+      font-size: 2rem;
+      max-width: 80%;
+    }
+
+    .longform .caption{
+      margin:20px;
+      font-size:1.3rem;
+      text-align:center;
+      max-width:100%;
+    }
+
+    .post > .image-contain{
+      margin: 80px 0;
+    }
  
+    .image-contain{
+      padding:80px 0;
+    }
 }
 
 
