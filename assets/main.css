@@ -188,9 +188,6 @@ max-width:1200px;
 }
 
 
-.project{
-  margin: 0 0 60px 0;
-}
 
 
 h1, h2{
@@ -349,6 +346,14 @@ li, h3{
   margin:0 0 .5em;
 }
 
+.project-title{
+  font-size:1.2rem;
+  margin:30px 0 0;
+  border-radius:4px;
+  padding:8px 16px;
+  border:2px solid rgba(255,255,255,0.3);
+  display:inline-block;
+}
 
 
 
@@ -389,7 +394,7 @@ li, h3{
     }
     
     .screen, .no-screen{
-      width:66%;
+      width:75%;
         margin:0 auto 20px;
 
     }
@@ -402,10 +407,9 @@ li, h3{
     }
 
     .project-title{
-      margin:40px 0 0 0;
-      border-radius:4px;
-      padding:8px 16px;
-      border:2px solid rgba(255,255,255,0.3);
+      font-size:1.6rem;
+      margin:20px 0 0 0;
+      border:3px solid rgba(255,255,255,0.3);
       display:inline-block;
     }
 
