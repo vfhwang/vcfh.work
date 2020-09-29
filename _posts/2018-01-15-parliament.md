@@ -79,6 +79,9 @@ We also developed a flexible 'calling card' component, using the photos, which w
 Unfortunately in the end Parliament decided not to proceed with a website built in a user centered way. The beta website described in this post was deleted a few months later. There are many reasons this happened - mistakes were made, political landscapes misunderstood, but I hope that one day the loose strands described in this post will be picked up again. 
 
 <div class="image-contain parliament">
-
 <div class="screen"><img src="../assets/images/home/parliament-homepage.png"></div>
 </div>
+
+
+<p class="colophon">This work was completed as an interaction designer over 12 months, alongside other work, working closely with <a href="https://www.linkedin.com/in/marttiina-keituri-gilchrist-33641251/">Marttiina Keituri Gilchrist</a> and <a href="https://www.linkedin.com/in/alan-mayers-71849813a/"> Alan Mayers</a>.</p>
+
