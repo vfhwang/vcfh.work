@@ -263,9 +263,10 @@ h1, h2{
 }
 
 .screen img, .no-screen img, .screen video, .no-screen video{
-  /* width:66%; */
   padding: 16px 5px 0px;
   margin:0;
+  /* max-width:700px; */
+  max-height:50vh;
 }
 
 .screen, .no-screen{
@@ -400,8 +401,7 @@ li, h3{
 
     .screen img, .no-screen img, .screen video, .no-screen video{
       padding: 24px 8px 2px;
-      max-width:700px;
-      max-height:60vh;
+
     }
 
     .farewill{
