@@ -125,7 +125,7 @@ background-color: #ffffff;
 
 .workdown{
   position:fixed;
-  bottom:10vh;
+  bottom:3vh;
   left: 50%;
 transform: translateX(-50%);
 }
