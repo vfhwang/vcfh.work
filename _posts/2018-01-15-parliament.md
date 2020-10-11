@@ -1,12 +1,12 @@
 ---
 layout: post
-org:  "UK Parliament"
 year:  "2017"
 team:  "Product team w/ 3 designers"
 date:   2018-01-05 12:00:00 -0600
 title: "UK Parliament"
+class: "parliament"
 categories: casestudies
-description: ">Making it easier to understand what MPs and Lords do"
+description: "Making it easier to understand what MPs and Lords do"
 colour: 4700B2
 imagesurl: /assets/images/parliament/
 permalink: /case-study/ukparliament

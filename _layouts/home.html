@@ -54,36 +54,25 @@
 		<div class="workdown"><p>Work</p></div>
 	</section>
 
+	{% for post in site.categories.casestudies %}
+	<!-- <a href="{{ post.permalink }}"> -->
+		<section class="slide {{ post.class }}">
+			<h2>{{ post.title }}</h2>
+			<div class="screen"><img src="{{ post.imagesurl }}/cover.png"></div>
+			<p>{{ post.description }}</p>
+			<p class="opacity60">( case study coming soon )</p>
 
-	<section class="slide farewill">
-		<h2>Farewill</h2>
-		<div class="screen"><img src="assets/images/home/farewill-homepage.png"></div>
-		<p>The smarter way to make a will </p>
-		<p class="opacity60">( case study coming soon )</p>
+		</section>
+	<!-- </a> -->
 
-	</section>
+	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
 
-	<!-- <a href="/case-study/ukparliament"> -->
 
-	<section class="slide parliament">
-		<h2>UK Parliament</h2>
-		<div class="screen"><img src="assets/images/home/parliament-homepage.png"></div>
-		<p>Explaining what MPs and Lords do everyday</p>
-		<p class="opacity60">( case study coming soon )</p>
-	</section>
 
-	<!-- </a>
 
-<a href="/case-study/iplayer"> -->
 
-	<section class="slide iplayer">
-		<h2>BBC iPlayer</h2>
-		<div class="screen"><img src="assets/images/home/iplayer-homepage.png"></div>
-		<p>A better way to find something to watch</p>
-		<p class="opacity60">( case study coming soon )</p>
-	</section>
-
-<!-- </a> -->
+</a>
 
 	<section class="slide final">
 		<!-- <h3>I'd love to chat</h3> -->
