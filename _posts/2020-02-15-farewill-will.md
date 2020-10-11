@@ -5,7 +5,7 @@ team:  "Product team w/ 3 designers"
 date:   2018-01-05 12:00:00 -0600
 title: "Farewill"
 class: "farewill2"
-categories: casestudies
+categories: casestudies-notready
 description: "The smarter way to make a will"
 colour: 4700B2
 imagesurl: /assets/images/farewill-will/

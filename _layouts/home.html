@@ -53,8 +53,7 @@
 		<div class="workdown"><p>Work</p></div>
 	</section>
 
-	{% for post in site.categories.casestudies %}
-	<!-- <a href="{{ post.permalink }}"> -->
+	{% for post in site.categories.casestudies-notready %}
 		<section class="slide {{ post.class }}">
 			<h2>{{ post.title }}</h2>
 			<div class="screen"><img src="{{ post.imagesurl }}/cover.png" alt="A desktop screenshot of {{ post.title }}"></div>
@@ -62,9 +61,24 @@
 			<p class="opacity60">( case study coming soon )</p>
 
 		</section>
-	<!-- </a> -->
 
-	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	<!-- <li><a href="{{ post.url }}">{{ post.title }}</a></li> -->
+
+	{% endfor %}
+
+	{% for post in site.categories.casestudies %}
+	<a href="{{ post.permalink }}">
+		<section class="slide {{ post.class }}">
+			<h2>{{ post.title }}</h2>
+			<div class="screen"><img src="{{ post.imagesurl }}/cover.png" alt="A desktop screenshot of {{ post.title }}"></div>
+			<p>{{ post.description }}</p>
+			<p class="opacity60">( read more )</p>
+
+		</section>
+	</a>
+
+	<!-- <li><a href="{{ post.url }}">{{ post.title }}</a></li> -->
+
 	{% endfor %}
 
 
