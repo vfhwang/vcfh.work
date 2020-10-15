@@ -62,7 +62,7 @@ Rather than rely on MPs to submit a photo of themselves, we saw an opportunity t
 <div class="screen"><img src="{{page.imagesurl}}cropped-downloads.png"></div>
 </div>
 
-We wanted them to be as easy for anyone to access and use as possible. I researched the most frequently used crops of photos and, working with the data team, created a process by which these would be generated and made available for download, along with the original high-res photo.I also worked with our content designers to ensure our open license was easy to understand. 
+We wanted them to be as easy for anyone to access and use as possible. I researched the most frequently used crops of photos and, working with the data team, created a process by which these would be generated and made available for download, along with the original high-res photo. I also worked with our content designers to ensure our open license was easy to understand. 
 
 <div class="image-contain">
 <p class="caption">MPs photos out in the wild</p>

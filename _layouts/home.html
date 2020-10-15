@@ -50,8 +50,10 @@
 			<h2>(Victor Chieng Fatt Hwang)</h2>
 		</div>
 		<p class="max600">I'm a designer, specialised in creating useful products and services. I help people, organisations and things solve problems. I believe in thinking through making.</p>
-		<div class="workdown"><p>Work</p></div>
+		<a href="#work"><div class="workdown"><p>Work</p></div></a>
 	</section>
+
+	<section id="work">
 
 	{% for post in site.categories.casestudies-notready %}
 		<section class="slide {{ post.class }}">
@@ -82,10 +84,9 @@
 	{% endfor %}
 
 
+</section>
 
 
-
-</a>
 
 	<section class="slide final">
 		<!-- <h3>I'd love to chat</h3> -->
