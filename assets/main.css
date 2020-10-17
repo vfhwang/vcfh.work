@@ -282,6 +282,12 @@ max-width:1200px; */
   text-align:center;
 }
 
+.image-contain.title{
+  /* background-color:black;
+  color:white; */
+
+
+}
 
 
 
@@ -580,6 +586,7 @@ li, h3{
     .postbody p{
       margin:20px 80px;
     }
+
 
     .screen img, .no-screen img, .screen video, .no-screen video{
       max-width:800px;
