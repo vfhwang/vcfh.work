@@ -6,7 +6,7 @@ intro: "One of the last things anyone wants to do is make a will. It brings to m
 date:   2018-01-05 12:00:00 -0600
 title: "Farewill"
 class: "farewill2"
-categories: casestudies-notready
+categories: casestudies
 description: "The smarter way to make a will"
 colour: 4700B2
 imagesurl: /assets/images/farewill-will/
@@ -39,8 +39,8 @@ However, we noticed that more than half of people would drop off at the sign-up 
 Using this insight we created a prototype that asked more questions about people's unique situation, such as their children, partner and house. Through this we could offer bespoke information about how Farewill can help in their particular situation - whether that’s choosing guardians for children or passing on their home. 
 
 <div class="image-contain">
-  <p class="caption">Some of the new onboarding questions</p>
-  <div class="no-screen"><video width="100%" autoplay loop controls>
+  <p class="caption">The new onboarding flow, in full</p>
+  <div class="screen"><video width="100%" autoplay loop controls>
     <source src="{{page.imagesurl}}Onboarding-flow.mp4" type="video/mp4">
   Your browser does not support videos.
   </video>
@@ -83,7 +83,7 @@ Overall these changes resulted in nearly double the number of people who clicked
 
 <!-- with a higher proportion of those sign-ups being for a couple's will. -->
 
-
+<!-- 
 <div class="image-contain">
 <h2>Finishing your will</h2>
 <div class="screen"><img src="{{page.imagesurl}}cover.png"></div>
@@ -118,5 +118,5 @@ Then created a complex will drafting tool. Cut 20 minutes off each case.
 
 Worked with content designer, Ethan, to rewrite messages to get people over to telephone wills. 
 
-Adding telephone wills into the onboarding flow. Made a few missteps before getting it right. Too complex. 
+Adding telephone wills into the onboarding flow. Made a few missteps before getting it right. Too complex.  -->
 
