@@ -27,7 +27,7 @@ I’ve led design on wills for the past 2 years, working with a multidisciplinar
 
 People put off taking the first step for years. Our job is to build momentum within the first 30 seconds, to prove our promise that you can finish your will in 15 minutes. 
 
-When I joined Farewill we had a fairly typical onboarding flow. It made sure our service was suitable for people trying to sign up. To do that, it asked questions like ‘where do you live?’.
+When I joined Farewill we had a fairly typical onboarding flow. It made sure our service was suitable for people trying to sign up. To do that, it asked questions about their location and if they had foreign assets.
 
 <div class="image-contain">
 <p class="caption">The old onboarding flow</p>
@@ -40,10 +40,9 @@ Using this insight we created a prototype that asked more questions about people
 
 
 <div class="image-contain">
-<p class="caption">Showing our value midway through the flow</p>
+<p class="caption">Showing that we understand people's situation</p>
 <div class="screen"><img src="{{page.imagesurl}}benefits.png"></div>
 </div>
-
 
 
 We also know from watching people write their wills that some parts of the process are a pleasant surprise. For example, many people don’t know that you can write down your funeral wishes. 
@@ -89,7 +88,7 @@ I didn’t think redesigning this page would result in the conversion improvemen
 <div class="no-screen"><img src="{{page.imagesurl}}couples-mapping.png"></div>
 </div>
 
-We discovered that there’s often an instigator in the relationship. Often this person has a look around the product themselves, makes a start and shows their partner their progress. We reworked our journey to allow you to add your partner at any point, rather than just during onboarding.
+We discovered that there’s usually an instigator in the relationship. Often this person has a look around the product themselves, makes a start and shows their partner. We reworked our journey to allow you to add your partner at any point, rather than just during onboarding.
 
 Whilst many couples did bits of the will individually, most sat down together to send their wills off for checking - often on the same device. From this we decided to allow whoever finishes their will first to pay for both wills. 
 
@@ -110,9 +109,9 @@ Since we implemented these changes 6 out of 10 wills are now sold to couples - u
 </div>
 
 
-One of the customer conversations I’ll never forget was with someone living with a terminal cancer diagnosis. They were reluctant to send their will for checking, because that finality ‘felt like giving in’. 
+One of the customer conversations I’ll never forget was with someone living with a terminal cancer diagnosis. They were reluctant to send their will for checking, because finalising their will ‘felt like giving in’. 
 
-With Farewill you can update your will and get it checked at any time after purchase. However, from this conversation and others like it, we realised that many people don’t know that. 
+With Farewill you can update your will and get it checked at any time after purchase, as many times as you want. However, from this conversation and others like it, we realised that wasn't as obvious as it should be.
 
 <div class="image-contain">
 <p class="caption">The old overview page</p>
@@ -120,7 +119,7 @@ With Farewill you can update your will and get it checked at any time after purc
 </div>
 
 
-In fact, we found out that many people don’t know much about what happens after purchase at all. One of the biggest misconceptions was that Farewill was a ‘digital’ will - in fact all wills in the UK must be physical documents by law. 
+In fact, we found out that many people don’t know much about what happens after purchase at all. One of the biggest misconceptions was that Farewill was a ‘digital’ will - in reality all wills in the UK must be physical documents by law. 
 
 To remedy all this we redesigned the main ‘overview’ page, the first thing you see when you log back in, to show people where in the writing process they are, and what comes next. 
 
