@@ -32,10 +32,10 @@
 
 	
 </head>
-<body data-barba="wrapper">
+<body data-barba="wrapper" class="home">
 
 
-<section class="main">
+<section class="main home-wrap">
 
 
 
@@ -44,56 +44,47 @@
 <main data-barba="container" data-barba-namespace="home">
 		
 
-	<section class="slide intro">
-		<div class="titles">
-			<h1>vcfh.work</h1>
-			<h2>(Victor Chieng Fatt Hwang)</h2>
-		</div>
-		<p class="max600">I'm a designer, currently making services and products with Farewill. I help people, organisations and things solve problems. I believe in thinking through making.</p>
-		<a href="#work"><div class="workdown"><p>Work</p></div></a>
-	</section>
+
+
+	<h1 class="opacity60 home-title">Victor Chieng Fatt Hwang</h1>
+	<p class="max60">I'm a designer, currently making services and products with Farewill. I help people, organisations and things solve problems. I believe in thinking through making.</p>
+
 
 	<section id="work">
 
 
+	<h2 class="opacity60 home-title">Work</h2>
 
+<div class="home-list">
 	{% for post in site.categories.casestudies %}
 	<a href="{{ post.permalink }}">
-		<section class="slide {{ post.class }}">
-			<h2>{{ post.title }}</h2>
-			<div class="screen"><img src="{{ post.imagesurl }}/cover.png" alt="A desktop screenshot of {{ post.title }}"></div>
-			<p>{{ post.description }}</p>
-			<p class="opacity60">( read more )</p>
-
-		</section>
+		<div class="home-list-item">
+			<p class="home-list-desc">{{ post.description }}</p>
+			<h2 class="home-list-title">{{ post.title }}</h2>
+			<p class="home-list-link">View case study</p>
+		</div>
 	</a>
 
 
 	{% endfor %}
 
 	{% for post in site.categories.casestudies-notready %}
-		<section class="slide {{ post.class }}">
-			<h2>{{ post.title }}</h2>
-			<div class="screen"><img src="{{ post.imagesurl }}/cover.png" alt="A desktop screenshot of {{ post.title }}"></div>
-			<p>{{ post.description }}</p>
-			<p class="opacity60">( case study coming soon )</p>
+	<div class="home-list-item">
+		<p class="home-list-desc">{{ post.description }}</p>
+		<h2 class="home-list-title">{{ post.title }}</h2>
+		<p class="home-list-link opacity60">Case study coming soon</p>
+	</div>
+{% endfor %}
 
-		</section>
-
-
-	{% endfor %}
-
-
-
-	<section class="slide final">
-		<!-- <h3>I'd love to chat</h3> -->
-		<img class="smallimg" src="assets/images/home/portrait-victor.jpg"alt="A portrait of Victor Hwang">
-		<p>vfhwang@gmail.com</p>
-
-	</section>
-
+</div>
 
 </section>
+
+
+	<p>vfhwang@gmail.com</p>
+
+
+
 
 
 </main>
