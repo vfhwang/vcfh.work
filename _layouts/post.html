@@ -40,20 +40,30 @@
 
 
 
-	<main data-barba="container" data-barba-namespace="home">
+	<main data-barba="container" data-barba-namespace="home" class="postbody">
 
 		
-		<section class="slide short project {{page.class}}">
-			<p class="max600">{{ page.intro }}</p>
-			<p class="max600">{{ page.intro2 }}</p>
-		</section>
 
-		<section class="postbody">
-			<div class="postcontainer">	
-				{{ content }}
-			</div>
+		<div class="home-list-item">
+			<h1 class="home-list-desc">{{ page.description }}</h1>
+			<p class="home-list-title">{{ page.title }}</p>
+			<a href="/"><p class="home-list-link">vcfh.work</p></a>
+		</div>
 
+
+			<p class="big">{{ page.intro }}</p>
+
+		
+		<section class="image-contain {{page.class}}">
+			<div class="screen"><img class="giant" src="{{page.imagesurl}}/cover.png"></div>
 		</section>
+		
+
+
+		{{ content }}
+
+
+
 
 
 
@@ -62,43 +72,46 @@
 </section>
 
 
-<section class="slide project {{page.class}}">
+<section class="image-contain {{page.class}}">
 	<div class="screen"><img class="giant" src="{{page.imagesurl}}/cover.png"></div>
 </section>
 
 
-<section class="slide final">
-	<p class="max600">{{ page.team }}</p>
+<p>{{ page.team }}</p>
 
 
-</section>
 
-<section class="slide otherprojects">
+<section id="work">
 
-	<h3>Other projects</h3>
-	<ul class="otherprojectslist">
+
+<h2 class="opacity60 home-title">Other projects</h2>
+
+<div class="home-list">
+
 	{%  for post in site.categories.casestudies %}
-  		{% if post.url != page.url %} 
-    		{% if forloop.index < 6 or found %}
-      <li>
-		<a href="{{ post.url }}"><p>{{ post.description }}</p></a>
-      </li>
-    		{% endif %}
-  			{% else %}
-    		{% assign found = true %} 
-  		{% endif %}
+		{% if post.url != page.url %} 
+	  {% if forloop.index < 6 or found %}
+	<a href="{{ post.permalink }}">
+		<div class="home-list-item">
+			<p class="home-list-desc">{{ post.description }}</p>
+			<h2 class="home-list-title">{{ post.title }}</h2>
+			<p class="home-list-link">View case study</p>
+		</div>
+	</a>
+	  	{% endif %}
+		{% else %}
+	  	{% assign found = true %} 
+		{% endif %}
 	{% endfor %}
-	</ul>
 
-	<h3>Contact</h3>
-	<ul class="otherprojectslist">
-	<li><p>vfhwang@gmail.com</p></li>
-	</ul>
-
-	<a href="/"><div class="backbutton"><p>vcfh.work</p></div></a>
-
+</div>
 
 </section>
+
+
+<p>Back home</p>
+
+
 
 </body>
 </html>

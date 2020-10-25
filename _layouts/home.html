@@ -35,7 +35,7 @@
 <body data-barba="wrapper" class="home">
 
 
-<section class="main home-wrap">
+<section class="main">
 
 
 
@@ -46,37 +46,38 @@
 
 
 
-	<h1 class="opacity60 home-title">Victor Chieng Fatt Hwang</h1>
-	<p class="max60">I'm a designer, currently making services and products with Farewill. I help people, organisations and things solve problems. I believe in thinking through making.</p>
-
+	<h1 class="opacity60">Victor Chieng Fatt Hwang</h1>
+	<p>Lead product and service designer</p>
 
 	<section id="work">
 
+<section class="work-item">
+	<h2>I joined Farewill in 2018 to help change the way the world deals with death.</h2>
+	<div class="">
+<video width="100%" autoplay loop controls>
+		  <source src="/assets/images/home/iPlayer_hover_states.mp4" type="video/mp4">
+		Your browser does not support videos.
+		</video> 
+	  </div>
+	<p>At Farewill I lead design on wills and growth. I’m proud to be part of a team that’s revolutionising how people plan for their death. We’ve got an industry leading product experience, and have won National Will Writer of the year for two years running. </p>
+	<p>Since Tom H and I joined as a pair of lead designers, we’ve seen Farewill grow from a wills company into an everything-to-do-with-death company, with a design team to match (now 13 of us across research, content, product and brand design). </p>
+</section>
 
-	<h2 class="opacity60 home-title">Work</h2>
-
-<div class="home-list">
-	{% for post in site.categories.casestudies %}
-	<a href="{{ post.permalink }}">
-		<div class="home-list-item">
-			<p class="home-list-desc">{{ post.description }}</p>
-			<h2 class="home-list-title">{{ post.title }}</h2>
-			<p class="home-list-link">View case study</p>
-		</div>
-	</a>
-
-
-	{% endfor %}
-
-	{% for post in site.categories.casestudies-notready %}
-	<div class="home-list-item">
-		<p class="home-list-desc">{{ post.description }}</p>
-		<h2 class="home-list-title">{{ post.title }}</h2>
-		<p class="home-list-link opacity60">Case study coming soon</p>
+<section class="work-item">
+	<h2>from 2017 to 2018 I worked at UK Parliament</h2>
+	<div class="">
+		<img src="/assets/images/home/parliament-home.png">
 	</div>
-{% endfor %}
+	<p>where I was part of an ambitious team with the goal of making it easier to understand what MPs and Lords do everyday. </p>
+</section>
 
-</div>
+<section class="work-item">
+	<h2>and from 2015 to 2017 I worked at the BBC</h2>
+	<div class="">
+		<img src="/assets/images/home/iplayer-home.png">
+	</div>
+	<p>where I worked on weather, BBC notifications, radio and finally iPlayer.  </p>
+</section>
 
 </section>
 
