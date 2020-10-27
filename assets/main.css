@@ -148,7 +148,7 @@ section {
 }
 
 
-img{
+img, video{
   align-self:baseline;
   position:relative;
   max-width: 100%;
@@ -165,7 +165,7 @@ font-family:'Suisse', serif;
 line-height:1.4;
 color: #454F4D;
 background-color: #ffffff;
-padding:4vh 4vw;
+padding:var(--s0);
 
 }
 
@@ -532,6 +532,7 @@ li, h3{
   max-width:900px;
   text-indent:2em;
   margin:8em 0;
+  font-size:0.8em;
 }
 
 .work-item video, .work-item img, .work-item div{
@@ -548,10 +549,9 @@ li, h3{
 
   body{
     font-size:var(--s1);
+    padding:var(--s2);
     }
     
-
-
 
     .screen img, .no-screen img, .screen video, .no-screen video{
       padding: 24px 8px 2px;
