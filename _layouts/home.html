@@ -41,7 +41,7 @@
 
 
 
-<main data-barba="container" data-barba-namespace="home">
+<main data-barba="container" data-barba-namespace="home" class="homebody">
 		
 
 
@@ -52,15 +52,38 @@
 	<section id="work">
 
 <section class="work-item">
-	<h2>I joined Farewill in 2018 to help change the way the world deals with death.</h2>
+	<h2>I joined Farewill in 2017 to help change the way the world deals with death.</h2>
 	<div class="">
-<video width="100%" autoplay muted loop>
+		
+		<video width="100%" autoplay muted loop>
 		  <source src="/assets/images/home/farewill-homepage-vsmall-looped.mp4" alt="video of the farewill sign up process" type="video/mp4">
 		Your browser does not support videos.
 		</video> 
-	  </div>
+	</div>
 	<p>At Farewill I lead design on wills and growth. I’m proud to be part of a team that’s revolutionising how people plan for their death. We’ve got an industry leading product experience, and have won National Will Writer of the year for two years running. </p>
 	<p>Since Tom H and I joined as a pair of lead designers, we’ve seen Farewill grow from a wills company into an everything-to-do-with-death company, with a design team to match (now 13 of us across research, content, product and brand design). </p>
+
+	<!-- <div class="table-list">
+		
+		{%  for post in site.categories.farewill %}
+			{% if post.url != page.url %} 
+		  {% if forloop.index < 6 or found %}
+		<a href="{{ post.permalink }}">
+			<div class="table-list-item">
+				<p class="table-list-4wide">{{ post.description }}</p>
+				<p class="table-list-2wide">{{ post.title }}</h2>
+				<p class="table-list-small ul">View case study</p>
+			</div>
+		</a>
+			  {% endif %}
+			{% else %}
+			  {% assign found = true %} 
+			{% endif %}
+		{% endfor %}
+	
+	</div> -->
+
+
 </section>
 
 <section class="work-item">
@@ -69,6 +92,29 @@
 		<img src="/assets/images/home/parliament-home.jpg" alt="photo of UK Parliament beta MPs page on a phone">
 	</div>
 	<p>where I was part of an ambitious team with the goal of making it easier to understand what MPs and Lords do everyday. </p>
+
+	
+	<!-- <div class="table-list">
+		
+		{%  for post in site.categories.parliament %}
+			{% if post.url != page.url %} 
+		  {% if forloop.index < 6 or found %}
+		<a href="{{ post.permalink }}">
+			<div class="table-list-item">
+				<p class="table-list-4wide">{{ post.description }}</p>
+				<p class="table-list-2wide">{{ post.title }}</h2>
+				<p class="table-list-small ul">View case study</p>
+			</div>
+		</a>
+			  {% endif %}
+			{% else %}
+			  {% assign found = true %} 
+			{% endif %}
+		{% endfor %}
+	
+	</div> -->
+
+
 </section>
 
 <section class="work-item">
@@ -77,7 +123,32 @@
 		<img src="/assets/images/home/iplayer-home.jpg" alt="photo of iPlayer homepage on a laptop">
 	</div>
 	<p>where I worked on weather, BBC notifications, radio and finally iPlayer.  </p>
+
+	<!-- <div class="table-list">
+		
+		{%  for post in site.categories.bbc %}
+			{% if post.url != page.url %} 
+		  {% if forloop.index < 6 or found %}
+		<a href="{{ post.permalink }}">
+			<div class="table-list-item">
+				<p class="table-list-4wide">{{ post.description }}</p>
+				<p class="table-list-2wide">{{ post.title }}</h2>
+				<p class="table-list-small ul">View case study</p>
+			</div>
+		</a>
+			  {% endif %}
+			{% else %}
+			  {% assign found = true %} 
+			{% endif %}
+		{% endfor %}
+	
+	</div> -->
+
+
+
 </section>
+
+
 
 </section>
 

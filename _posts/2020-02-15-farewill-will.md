@@ -1,147 +1,132 @@
 ---
 layout: post
 year:  "2019"
-team:  "This work was completed as a lead product designer, embedded in a multidisciplinary product team. Working closely with Clare Ridd, Tam Finlay, Ethan Lott, and many many others. Very special shout out to Louis Buck who does all our illustrations."
-intro: "One of the last things anyone wants to do is make a will. It brings to mind a depressing mix of admin and considering your mortality. How do you create a product experience that helps people get past all that?"
+project: "A smarter way to write your will"
+impact:
+  - 10x growth 
+  - National will writer of the year 2019 & 2020 
+  - NPS of 86 
+  - 4.9 / 5 on Trustpilot 
+role: "Lead designer"
+team: 
+  - Louis Buck & Anna Charity • Brand
+  - Tam Finlay • Product management 
+  - Clare Ridd • Research 
+intro: 
+  - Most people think writing their will is going to be expensive and complicated. It brings to mind a depressing mix of legal admin and considering your mortality. At Farewill we’ve created a product experience to prove the opposite can be true - that writing a will can be quick, affordable and even enjoyable. 
+  - I’ve led design on wills at Farewill for the past 2 years. Starting off as the sole designer, I now work with a wider design team across the whole user journey - from sign up to having a signed will in your hand - to make it possible to get your will done in 15 minutes.
 date:   2018-01-05 12:00:00 -0600
 title: "Farewill"
-class: "farewill2"
-categories: casestudies
-description: "The smarter way to make a will"
-colour: 4700B2
+class: "farewill"
+categories: casestudies farewill
+description: "A smarter way to write your will"
 imagesurl: /assets/images/farewill-will/
 permalink: /case-study/farewill-will
 
 
 ---
 
-I’ve led design on wills for the past 2 years, working with a multidisciplinary team to deliver a will writing service that is a joy to use, and motivates people to get it ticked off their to-do list (finally).
+## Where we were
+When I joined in 2017 we were ten people working on a couple of desks in Haggerston. We’d just received some funding, and our aim over the next two years was to become the largest will writer in the UK and grow 10x. 
+
+This ambitious goal meant we needed to redesign our will writing experience to both broaden who we can write a will for, and increase the proportion of people who finish writing their will. 
 
 
-<div class="image-contain title">
-<h2>Let's get started</h2>
-<div class="screen"><img src="{{page.imagesurl}}wills-landing.png"></div>
-<p class="caption">Redesigning our onboarding flow</p>
-</div>
+{% include image.html url='/assets/images/farewill-will/wills-landing.png' description='Redesigning our onboarding flow' %}
 
 
-People put off taking the first step for years. Our job is to build momentum within the first 30 seconds, to prove our promise that you can finish your will in 15 minutes. 
-
-When I joined Farewill we had a fairly typical onboarding flow. It made sure our service was suitable for people trying to sign up. To do that, it asked questions about their location and if they had foreign assets.
-
-<div class="image-contain">
-<p class="caption">The old onboarding flow</p>
-<div class="screen"><img src="{{page.imagesurl}}onboarding-old.png"></div>
-</div>
-
-However, we noticed that more than half of people would drop off at the sign-up page. We came up with a working hypothesis: Whilst our onboarding flow was functional and easy to use, it wasn’t meeting people’s emotional needs. 
-
-Using this insight we created a prototype that asked more questions about people's unique situation, such as their children, partner and house. Through this we could offer bespoke information about how Farewill can help them specifically - whether that’s choosing guardians for children or passing on their home. 
 
 
-<div class="image-contain">
-<p class="caption">Showing that we understand people's situation</p>
-<div class="screen"><img src="{{page.imagesurl}}benefits.png"></div>
-</div>
+
+## Getting to know our customers
+I started by getting to know our customers and will writing inside out. I trained as a will specialist, so I could both check wills and take shifts on our customer support line. I complimented that with in-depth interviews with both customers and people who were considering getting a will. Finally, we also held regular sessions (colloquially referred to as Will Wednesdays), where customers were invited to finish their will in our office, with our help. 
+
+We saw that there were three major problems to solve: 
+
+1. People lost motivation before they’d even signed up
+2. People were confused by the post-purchase experience
+3. Couples were confused about how to write a will together
+
+Let’s walk through how we tackled each one of these. 
+
+### Making our onboarding more motivational 
+
+We saw in our analytics that only 40% of people who started our onboarding actually signed up. Helping more people get started writing their will felt like a massive opportunity. 
+
+Through watching people going through the flow, we came up with a working hypothesis: Whilst our onboarding flow was functional and easy to use, it wasn’t meeting people’s emotional needs. When they were hit with the sign-up page, they still had lots of questions about what getting a will would mean for them and their family. 
+
+[Old onboarding]
 
 
-We also know from watching people write their wills that some parts of the process are a pleasant surprise. For example, many people don’t know that you can write down your funeral wishes. 
-
-I worked with Ethan, our copywriter, to create a list of three points for each unique situation. These are designed to be not only reassuring, but also reveal something unexpected that a will can do for you. 
-
-We show people this list, demonstrating that we understand their situation, just before asking for their details. We’ve seen in research that this page is a boost of energy before the hard work begins. 
+Using this insight we created a prototype that asked more questions about people's unique situation, such as their children, partner and house. Through this we could offer bespoke information about how Farewill can help in their particular situation - whether that’s choosing guardians for children or passing on their home. 
 
 
-<div class="image-contain">
-  <p class="caption">The new onboarding flow, in full</p>
-  <div class="screen"><video width="100%" autoplay loop controls>
-    <source src="{{page.imagesurl}}Onboarding-flow.mp4" type="video/mp4">
-  Your browser does not support videos.
-  </video>
-  </div>
+[New onboarding flow] - Prototypes? 
 
-</div>
+We also know that some parts of the process are a pleasant surprise. For example, many people don’t know that you can write down your funeral wishes.
 
-Overall these changes resulted in nearly double the number of people who clicked 'Let's get started' signing up for an account.
+I worked with Ethan (a writer), to create a list of three points for each unique situation. These are designed to be not only reassuring, but also reveal something unexpected.
 
-<div class="image-contain">
-<h2>Wills for couples</h2>
-<div class="screen"><img src="{{page.imagesurl}}couples-wills.png"></div>
-<p class="caption">Redesigning how couples get their wills</p>
-</div>
-
-With Farewill each person in a relationship makes their own will, allowing for greater flexibility. One customer I spoke to said it gave them the space to write a message from the heart - something they wouldn’t have got in a high street solicitor. 
-
-Although each person having their own account doesn’t match with most people’s mental model of a joint couple’s will, we believe the benefits mean it’s worthwhile. 
-
-However, this was a lot to explain in an onboarding flow - resulting in a confusing page that led to people dropping off. 
-
-<div class="image-contain">
-<p class="caption">The old couples wills page in onboarding</p>
-<div class="screen"><img src="{{page.imagesurl}}couples-old.png"></div>
-</div>
-
-I didn’t think redesigning this page would result in the conversion improvements we wanted. We therefore took a wider view, mapping out how couples use our product from start to finish. 
-
-<div class="image-contain">
-<p class="caption">Mapping out couples experiences</p>
-<div class="no-screen"><img src="{{page.imagesurl}}couples-mapping.png"></div>
-</div>
-
-We discovered that there’s usually an instigator in the relationship. Often this person has a look around the product themselves, makes a start and shows their partner. We reworked our journey to allow you to add your partner at any point, rather than just during onboarding.
-
-Whilst many couples did bits of the will individually, most sat down together to send their wills off for checking - often on the same device. From this we decided to allow whoever finishes their will first to pay for both wills. 
-
-<div class="image-contain">
-<p class="caption">Redesigned payment page, allowing people to buy both wills</p>
-<div class="screen"><img src="{{page.imagesurl}}couples-payment.png"></div>
-</div>
+We show people this list, demonstrating that we understand their situation, just before asking for their details. This gives people the reassurance that a will is worth doing, and a little energy boost before the hard work begins.
 
 
-We also found out that many couples share a central device, like a laptop. We heard that it was sometimes confusing to know whose account you were logged into. From finding this out we added the account holder's name to the main navigation - making it easy to know who's logged in. 
+[New onboarding - value proposition]
 
-Since we implemented these changes 6 out of 10 wills are now sold to couples - up from 3 out of 10 when we started. 
+As well as these broader changes to meet people’s emotional needs, we tightened up the flow on mobile and simplified each question and answer as far as possible - splitting inputs out onto their own pages. Despite the new flow being much longer we saw our conversion rate double. This proved our hypothesis that by meeting people’s emotional needs they’d be more likely to get started. 
 
-<div class="image-contain">
-<h2>From signing up to finishing your will</h2>
-<div class="screen"><img src="{{page.imagesurl}}cover.png"></div>
-<p class="caption">Redesigning the account experience</p>
-</div>
+{% include video.html url='/assets/images/farewill-will/onboarding-flow.mp4' description='Our new onboarding flow in full' %}
 
 
-One of the customer conversations I’ll never forget was with someone living with a terminal cancer diagnosis. They were reluctant to send their will for checking, because finalising their will ‘felt like giving in’. 
+### A clearer post-purchase experience
+Once we’d made the improvements to our onboarding flow, we dedicated effort to finding out why people start but don’t finish their will. 
 
-With Farewill you can update your will and get it checked at any time after purchase, as many times as you want. However, from this conversation and others like it, we realised that wasn't as obvious as it should be.
+We emailed people who’d finished their will but hadn’t sent it for checking, offering a chat to help them finish. So much useful insight came out of these conversations, but one conversation in particular sticks with me. It was with a customer living with a terminal cancer diagnosis. We found out that they were reluctant to send their will for checking because it felt like a sort of finality, which to them was like admitting defeat. 
 
-<div class="image-contain">
-<p class="caption">The old overview page</p>
-<div class="screen"><img src="{{page.imagesurl}}overview-old.png"></div>
-</div>
+Whilst this isn’t a situation most of our customers are in, we realised that the lack of certainty about what happens next could be stopping others from finishing their will too.
 
+In fact, with Farewill you can update your will and get it checked at any time after purchase. So there’s no reason to put off sending your first draft for checking. Another misconception we encountered was that Farewill was a ‘digital’ will. All wills in the UK must be printed and signed with a pen to be legal.  
 
-In fact, we found out that many people don’t know much about what happens after purchase at all. One of the biggest misconceptions was that Farewill was a ‘digital’ will - in reality all wills in the UK must be physical documents by law. 
+To remedy this confusion and misconceptions we redesigned our overview page, the first thing you see when you log back in. Rather than just pushing people to the next step, we wanted to give people a much clearer overview of the whole process, start to finish.
 
-To remedy all this we redesigned the main ‘overview’ page, the first thing you see when you log back in, to show people where in the writing process they are, and what comes next. 
+I sketched out some initial ideas, which then went through a few iterations with the help of the rest of the product team.   
 
-<div class="image-contain">
-  <p class="caption">Design explorations for the overview page</p>
-  <div class="screen"><video width="100%" autoplay loop controls>
-    <source src="{{page.imagesurl}}overview-explorations.mp4" type="video/mp4">
-  Your browser does not support videos.
-  </video></div>
-
-</div>
+To give us confidence to roll the redesign out I wrote a research plan, and tested out a low-fi prototype with some potential users. Off the back of this we tweaked some of the content for clarity. After A/B testing the page to positive results we rolled it out to 100% of users. 
 
 
-I wrote a research plan, and tested out a low-fi prototype built in Axure with participants. That gave us enough confidence, with some tweaks, to release the redesigned page. 
+### A better way for couples to get their wills done
+Finally, we found out that most couples think of a ‘couples will’ as a single document. However, the law says that every person must have their own will. Some solicitors will push couples to write ‘mirror’ wills, but we felt it was important to allow each person to customise every part of their own will. 
 
-<div class="image-contain">
-<p class="caption">Putting the new page in front of people</p>
-<div class="screen"><img src="{{page.imagesurl}}overview-testing.png"></div>
-</div>
+[Existing couples referral page]
+
+Our existing will writing product only allowed people to refer their partner using our generic referral scheme, leaving couples confused. We realised we needed to bridge the gap between people’s mental model of a single ‘couples’ will, and the benefits of each person having their own Farewill account. 
+
+[couples will map]
+
+To start, we mapped out the existing couple’s journey by interviewing couple’s who’d recently written a will with us. 
+
+Through this research we discovered that there’s often an instigator in the relationship. Usually this person will do all the research about how to write a will before inviting their partner. We realised we needed to let people add their partner at any point in the journey, rather than forcing them to do it at the beginning. 
+
+[new onboarding couples iterations]
+
+This was one of the things that went through a few iterations before we got it just right. At first we tried to explain too much about the process up front. Our next version simplified the couples step in onboarding and made it much easier to defer the decision till later. 
+
+[new payment page]
+
+We also discovered that whilst many couples write bits of their will separately (particularly the more personal parts like gifts and funeral wishes) most couples finished their wills together - often sitting down with their joint bank card to pay for both wills at once. So we redesigned our payment process to allow whoever finishes writing their will first to pay for both wills. 
+
+[new menu]
+
+Finally, we found out that many couples write their wills on a shared household device, often a desktop PC. We heard that it was sometimes confusing to know whose account you were  logged into. To address this, we added the account holder’s name into our main navigation. 
+
+### Where we are now
+2 years later, we’ve met our ambitious target to become the UKs biggest will writer, and won National will writer of the year for 2 years running. We’ve also got an industry beating NPS of 86 and thousands of 5 star reviews on Trustpilot. 
+
+We’ve built out our wills product to offer a p hone service, and a Lasting Power of Attorney service too. Mostly I’m proud to have been part of a team that’s made planning for your own death a little bit easier for thousands of people in the UK. 
 
 
-This case study is just a snapshot of the work we've done as a team to make planning for your death easier. 
 
-Since I joined Farewill we've become the nation's biggest will writer, whilst maintaining a 4.9/5 score on trustpilot and averageing an industry-leading 84 on NPS. 
+
+
+
+
 

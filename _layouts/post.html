@@ -38,26 +38,55 @@
 
 <section class="main">
 
+<nav>
+	<p><a href="/">vcfh.work</a></p>
+</nav>
+
+	<main data-barba="container" data-barba-namespace="home" >
+
+	<div class="postbody">	
+		<section class="postintro">
+
+			<h1>{{ page.description }}</h1>
+
+			<div class="screen"><img src="{{page.imagesurl}}/cover.png"></div>
 
 
-	<main data-barba="container" data-barba-namespace="home" class="postbody">
 
-		
-
-		<div class="home-list-item">
-			<h1 class="home-list-desc">{{ page.description }}</h1>
-			<p class="home-list-title">{{ page.title }}</p>
-			<a href="/"><p class="home-list-link">vcfh.work</p></a>
-		</div>
+			{% for item in page.intro %}
+				<p class="big">{{ item }}</p>
+			{% endfor %}
 
 
-			<p class="big">{{ page.intro }}</p>
+			<div class="table-list">
 
-		
-		<section class="image-contain {{page.class}}">
-			<div class="screen"><img class="giant" src="{{page.imagesurl}}/cover.png"></div>
+
+
+
+				<div class="table-list-item left-flex">
+					<p class="table-list-small opacity60">Role</p>
+					<p class="table-list-4wide">{{ page.role }}</p>
+				</div>
+
+				<div class="table-list-item left-flex">
+					<p class="table-list-small opacity60">Impact</p>
+					<div class="table-list-4wide">
+						{% for item in page.impact %}
+						<p>{{ item }}</p>
+						{% endfor %}
+					</div>
+				</div>				
+
+				<div class="table-list-item left-flex">
+					<p class="table-list-small opacity60">Team</p>
+					<div class="table-list-4wide">
+						{% for item in page.team %}
+						<p>{{ item }}</p>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
 		</section>
-		
 
 
 		{{ content }}
@@ -65,52 +94,41 @@
 
 
 
+		
+	</div>	
+	<section class="end-slide {{page.class}}">
+		<div class="screen light"><img src="{{page.imagesurl}}/cover.png"></div>
+	</section>
 
+		<!-- <section class="end-slide-mini">
+		
+		<h2 class="opacity60 table-title">Other projects</h2>
+		
+		<div class="table-list">
+		
+			{%  for post in site.categories.casestudies %}
+				{% if post.url != page.url %} 
+			  {% if forloop.index < 6 or found %}
+			  <a href="{{ post.permalink }}">
+				<div class="table-list-item">
+					<p class="table-list-4wide">{{ post.description }}</p>
+					<p class="table-list-2wide">{{ post.title }}</h2>
+					<p class="table-list-small ul">View case study</p>
+				</div>
+			</a>
+				  {% endif %}
+				{% else %}
+				  {% assign found = true %} 
+				{% endif %}
+			{% endfor %}
+		
+		</div>
+		
+		</section> -->
 
 
 </main>
 </section>
-
-
-<section class="image-contain {{page.class}}">
-	<div class="screen"><img class="giant" src="{{page.imagesurl}}/cover.png"></div>
-</section>
-
-
-<p>{{ page.team }}</p>
-
-
-
-<section id="work">
-
-
-<h2 class="opacity60 home-title">Other projects</h2>
-
-<div class="home-list">
-
-	{%  for post in site.categories.casestudies %}
-		{% if post.url != page.url %} 
-	  {% if forloop.index < 6 or found %}
-	<a href="{{ post.permalink }}">
-		<div class="home-list-item">
-			<p class="home-list-desc">{{ post.description }}</p>
-			<h2 class="home-list-title">{{ post.title }}</h2>
-			<p class="home-list-link">View case study</p>
-		</div>
-	</a>
-	  	{% endif %}
-		{% else %}
-	  	{% assign found = true %} 
-		{% endif %}
-	{% endfor %}
-
-</div>
-
-</section>
-
-
-<p>Back home</p>
-
 
 
 </body>
