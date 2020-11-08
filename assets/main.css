@@ -127,7 +127,7 @@ border:2px solid #4700B2;
   --s3: calc(var(--s2) * var(--ratio));
   --s4: calc(var(--s3) * var(--ratio));
   --s5: calc(var(--s4) * var(--ratio));
-  --measure: 60ch;
+  --measure: 50ch;
   --light-white: rgba(255,255,255,0.2);
   --light-grey: rgba(0,0,0,0.075);
   --grey: rgba(0,0,0,0.5);
@@ -271,7 +271,7 @@ nav > p{
 
 .postbody h1, .postbody h2,  .postbody h3{
   line-height:1;
-  margin:var(--s4) auto var(--s2);
+  margin:var(--s5) auto var(--s2);
   font-size:var(--s3);
 }
 .postbody h2,  .postbody h3{

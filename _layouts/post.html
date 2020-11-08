@@ -62,12 +62,14 @@
 
 
 
-
+				{% if page.role %}
 				<div class="table-list-item left-flex">
 					<p class="table-list-small opacity60">Role</p>
 					<p class="table-list-4wide">{{ page.role }}</p>
 				</div>
+				{% endif %}
 
+				{% if page.impact %}
 				<div class="table-list-item left-flex">
 					<p class="table-list-small opacity60">Impact</p>
 					<div class="table-list-4wide">
@@ -76,7 +78,9 @@
 						{% endfor %}
 					</div>
 				</div>				
+				{% endif %}
 
+				{% if page.team %}
 				<div class="table-list-item left-flex">
 					<p class="table-list-small opacity60">Team</p>
 					<div class="table-list-4wide">
@@ -85,7 +89,11 @@
 						{% endfor %}
 					</div>
 				</div>
+				{% endif %}
+
 			</div>
+
+			
 		</section>
 
 
